@@ -1,15 +1,20 @@
 {
-  "version": "2",
-  "builds": [
-    {
-      "src": "app.js",
-      "use": "@vercel/node"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "destination": "app.js"
-    }
-  ]
+  "name": "review-app",
+  "version": "1.0.0",
+  "description": "node js review testing ",
+  "main": "app.js",
+  "engines": {
+    "node": "14.x"
+
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3"
+  }
 }
